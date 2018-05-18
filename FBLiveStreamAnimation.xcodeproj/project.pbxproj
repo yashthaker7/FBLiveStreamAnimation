@@ -12,6 +12,7 @@
 		D3C58BE520AF29C00068A1BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C58BE320AF29C00068A1BF /* Main.storyboard */; };
 		D3C58BE720AF29C00068A1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C58BE620AF29C00068A1BF /* Assets.xcassets */; };
 		D3C58BEA20AF29C00068A1BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C58BE820AF29C00068A1BF /* LaunchScreen.storyboard */; };
+		D3C58BF220AF2ADE0068A1BF /* FBAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C58BF120AF2ADE0068A1BF /* FBAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		D3C58BE620AF29C00068A1BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3C58BE920AF29C00068A1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3C58BEB20AF29C00068A1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C58BF120AF2ADE0068A1BF /* FBAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAnimationView.swift; sourceTree = "<group>"; };
+		D3C58BF320AF3ED40068A1BF /* Screenshot */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screenshot; sourceTree = "<group>"; };
+		D3C58BF420AF3F3B0068A1BF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		D3C58BD320AF29C00068A1BF = {
 			isa = PBXGroup;
 			children = (
+				D3C58BF420AF3F3B0068A1BF /* README.md */,
+				D3C58BF320AF3ED40068A1BF /* Screenshot */,
 				D3C58BDE20AF29C00068A1BF /* FBLiveStreamAnimation */,
 				D3C58BDD20AF29C00068A1BF /* Products */,
 			);
@@ -56,6 +62,7 @@
 			children = (
 				D3C58BDF20AF29C00068A1BF /* AppDelegate.swift */,
 				D3C58BE120AF29C00068A1BF /* ViewController.swift */,
+				D3C58BF120AF2ADE0068A1BF /* FBAnimationView.swift */,
 				D3C58BE320AF29C00068A1BF /* Main.storyboard */,
 				D3C58BE620AF29C00068A1BF /* Assets.xcassets */,
 				D3C58BE820AF29C00068A1BF /* LaunchScreen.storyboard */,
@@ -136,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C58BF220AF2ADE0068A1BF /* FBAnimationView.swift in Sources */,
 				D3C58BE220AF29C00068A1BF /* ViewController.swift in Sources */,
 				D3C58BE020AF29C00068A1BF /* AppDelegate.swift in Sources */,
 			);
@@ -277,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FWQ7N3RX7G;
 				INFOPLIST_FILE = FBLiveStreamAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YashThaker.FBLiveStreamAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FWQ7N3RX7G;
 				INFOPLIST_FILE = FBLiveStreamAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YashThaker.FBLiveStreamAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
